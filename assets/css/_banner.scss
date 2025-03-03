@@ -1,0 +1,78 @@
+.banner{
+    background-image:linear-gradient(90deg,#e4a896, #dfa782 );
+    height: 600px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    >figure{
+        width: 80%;
+        height: 550px;
+        overflow-y: hidden;
+        align-items: center;
+        >img{
+            width: 40%;
+
+            background-color: orange;
+        }
+
+        >div{
+            display: block;
+             height: 400px;
+            margin-left: 50px;
+            >h1{
+                font-size: 50px;
+                text-transform: capitalize;
+                color: $text-white;
+                font-family: cursive;
+                margin-bottom: 20px;
+                >span{
+                    color: $text-cream;
+                    margin-left: -20px;
+                }
+            }
+            >h2{
+                display: flex;
+                font-size: 25px;
+                color: $text-white;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 20px;
+                >span{
+                    display: block;
+                    height: 10px;
+                    width: 80px;
+                    border-top: 3px solid $text-cream;
+                    border-radius: 2px;
+                    margin: 12px 5px;
+
+                }
+                
+                
+            }
+            >p{
+                font-size: 20px;
+                color: $text-white;
+                margin-bottom: 20px;
+            }
+
+            >button{
+                width: 160px;
+                height: 50px;
+                color: $text-white;
+                border: none;
+                background-color: $text-cream;
+                margin: 10px auto;
+                font-size: 18px;
+                font-weight: 200;
+                cursor: pointer;
+                &:hover{
+                    background-color: $text-pink;
+                    color: $text-cream;
+                    border: 3px solid $text-pink;
+                    transition: background-color 1s ease-in-out;
+                }
+            }
+
+
+        }
+    }
+}

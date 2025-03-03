@@ -1,0 +1,62 @@
+@import './normalize';
+
+.about{
+    width: 100%;
+    height: 400px;
+  
+    margin-top: 80px;
+    align-items: center;
+    >div{
+        width: 40%;
+        margin-left: 100px;
+        
+        justify-content: space-evenly;
+       >h2{
+        font-size: 30px;
+        text-transform: capitalize;
+        color: $text-cream;
+        font-family: cursive;
+        margin-bottom: 20px;
+        display: flex;
+        >span{
+            display: block;
+                    height: 10px;
+                    width: 80px;
+                    border-top: 3px solid $text-cream;
+                    border-radius: 2px;
+                    margin: 19px 5px;
+        }
+       }
+       >p{
+        font-size: 18px;
+        word-spacing: 5px;
+        text-align: justify;
+       }
+    }
+
+    >figure{
+        width: 40%;
+       
+        margin-left: 40px;
+        position: relative;
+        overflow: hidden;
+        >div{
+            width: 70%;
+            border: 2px solid $text-border;
+            height: 250px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 0;
+
+        }
+        >img{  width:  80%;
+            z-index: 10000;
+             height: 300px;
+             margin-top: 20px;
+             margin-left: 100px;
+            
+          
+        }
+    }
+}

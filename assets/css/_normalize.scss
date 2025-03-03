@@ -1,0 +1,19 @@
+*{padding: 0; margin: 0 ; box-sizing: border-box;}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header, section, div, figure, figcaption, ul, article, footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+$text-cream :#cd934a;
+$text-pink:#e6c1b9;
+$text-white:#ffff;
+$text-border:#d4b3ab;

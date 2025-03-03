@@ -1,0 +1,66 @@
+@import './normalize';
+
+header {
+    width: 100%;
+    height: 90px;
+  
+    justify-content: space-evenly;
+
+    >figure {
+        width: 20%;
+        align-items: center;
+
+        >a>img {
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+
+    >ul {
+        width: 50%;
+        justify-items: center;
+
+        >li {
+            height: 100%;
+            line-height: 80px;
+            text-transform: capitalize;
+            font-family: cursive;
+            font-weight: 600;
+            
+
+            >a {
+                display: flex;
+                height: 100%;
+                color: $text-cream;
+                padding-inline: 15px;
+            }
+
+        }
+
+       
+    } 
+
+    >section {
+        width: 20%;
+        align-items: center;
+        justify-content: space-evenly;
+        >a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            height: 60%;
+            color: $text-white;
+            background-color:$text-pink;
+            font-size: 25px;
+            border-radius: 100%;
+        
+
+            &:hover{
+                background-color: $text-white;
+                color: $text-pink;
+                transition: all 0.3s ease-in;
+        }
+        }
+
+    }}
